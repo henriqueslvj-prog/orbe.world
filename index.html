@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ORBE | Pulseiras Masculinas Exclusivas</title>
+    <meta
+      name="description"
+      content="ORBE — pulseiras masculinas premium. Escolha suas peças e reserve via DM no Instagram oficial."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-content">
+        <a href="#" class="brand" aria-label="ORBE Home">
+          <img
+            class="brand-logo-icon"
+            src="https://drive.google.com/uc?export=view&id=1q8AWckslIYKprn8YCiIfWl3muP4Z2wrg"
+            alt="Símbolo ORBE"
+          />
+          <img
+            class="brand-logo-full"
+            src="https://drive.google.com/uc?export=view&id=10pfIjc5AkcAtuem3SwRktNo2i24pqS_q"
+            alt="Logo ORBE"
+          />
+        </a>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+          <a href="#colecao">Coleção</a>
+          <a href="#novidades">Novidades</a>
+          <a href="#historia">História</a>
+          <a href="#atendimento">Atendimento</a>
+        </nav>
+
+        <a class="top-cta" href="https://ig.me/m/orbe.world" target="_blank" rel="noopener noreferrer">Reservar via DM</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">Coleção Principal • Pulseiras</p>
+          <h1>Design autoral para homens de presença.</h1>
+          <p>
+            A ORBE combina estética contemporânea, materiais selecionados e atendimento exclusivo.
+            Escolha suas peças e finalize sua reserva no Instagram oficial da marca.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#colecao">Explorar Coleção</a>
+            <a class="btn btn-secondary" href="#historia">Conheça a ORBE</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlights container" aria-label="Diferenciais ORBE">
+        <article>
+          <h3>Curadoria Premium</h3>
+          <p>Peças selecionadas para elevar o estilo masculino com sofisticação.</p>
+        </article>
+        <article>
+          <h3>Reserva Exclusiva</h3>
+          <p>Atendimento direto por DM para experiência personalizada.</p>
+        </article>
+        <article>
+          <h3>Identidade ORBE</h3>
+          <p>Design minimalista com acabamento de alto padrão em cada detalhe.</p>
+        </article>
+      </section>
+
+      <section id="colecao" class="collection container">
+        <div class="section-head">
+          <p class="eyebrow">Seleção ORBE</p>
+          <h2 id="collectionTitle">Pulseiras em destaque</h2>
+          <div class="collection-filter">
+            <label for="collectionSelect">Ver categoria:</label>
+            <select id="collectionSelect" aria-label="Selecionar categoria da coleção">
+              <option value="pulseiras">Pulseiras</option>
+              <option value="correntes">Correntes</option>
+              <option value="aneis">Anéis</option>
+              <option value="cintos">Cintos</option>
+              <option value="carteiras">Carteiras</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="productList" class="products"></div>
+
+        <aside class="reserve-box">
+          <h3>Sua reserva exclusiva</h3>
+          <ul id="selectedItems"></ul>
+          <a id="reserveLink" class="btn btn-secondary disabled" href="https://ig.me/m/orbe.world" target="_blank" rel="noopener noreferrer">Reservar no Instagram</a>
+        </aside>
+      </section>
+
+      <section id="novidades" class="content-section container">
+        <p class="eyebrow">Novidades</p>
+        <h2>Lançamentos e edições selecionadas</h2>
+        <p>
+          Descubra novas combinações de pedras, metais e acabamentos que chegam em ciclos limitados para manter sua coleção sempre atual.
+        </p>
+      </section>
+
+      <section id="historia" class="content-section container">
+        <p class="eyebrow">História da Marca</p>
+        <h2>ORBE: essência contemporânea, cuidado artesanal</h2>
+        <p>
+          A ORBE nasceu para traduzir o estilo masculino em peças versáteis e sofisticadas, unindo estética autoral, acabamento impecável e atendimento exclusivo.
+        </p>
+      </section>
+
+      <section id="atendimento" class="content-section container">
+        <p class="eyebrow">Atendimento</p>
+        <h2>Consultoria individual para cada reserva</h2>
+        <p>
+          Nossa equipe orienta combinações, disponibilidade e detalhes das peças diretamente no Instagram oficial para garantir uma experiência premium.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-content">
+        <p>© <span id="year"></span> ORBE. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
